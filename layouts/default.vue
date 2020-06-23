@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Navbar />
+    <NavContainer />
     <Nuxt />
     <Footer />
   </div>
 </template>
 
 <script>
-import Navbar from '../components/Navbar'
+import NavContainer from '../components/Navbar/NavContainer'
 import Footer from '../components/Footer'
 
 export default {
   components: {
-    Navbar,
+    NavContainer,
     Footer
   }
 };

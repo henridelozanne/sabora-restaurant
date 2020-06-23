@@ -1,10 +1,10 @@
 <template>
-  <h2>Few words about us</h2>
+  <h2>Nav</h2>
 </template>
 
 <script>
 export default {
-  name: 'FewWords'
+  name: 'Navbar'
 }
 </script>
 
