@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <Landing />
     <FewWords />
     <QuoteAndOpeningHours />
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Landing from '../components/Landing'
+import Landing from '../components/Landing/Landing'
 import FewWords from '../components/FewWords'
 import QuoteAndOpeningHours from '../components/QuoteAndOpeningHours'
 import Benefits from '../components/Benefits'

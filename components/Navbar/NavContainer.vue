@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h1>Nav container</h1>
+  <div class="nav-container container">
     <TopNavbar />
     <Navbar />
   </div>
@@ -19,6 +18,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.nav-container {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100; */
+}
 </style>

@@ -1,5 +1,14 @@
 <template>
-  <h2>Top navbar</h2>
+  <div class="top-nav">
+    <nuxt-link to="#">
+      <span>Call now:</span>
+      +33123456789
+    </nuxt-link>
+    <nuxt-link to="#">
+      <span>Email us:</span>
+      jorge@sabora.com
+    </nuxt-link>
+  </div>
 </template>
 
 <script>
@@ -9,5 +18,8 @@ export default {
 </script>
 
 <style>
-
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
 </style>
