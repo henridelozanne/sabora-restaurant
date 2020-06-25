@@ -50,6 +50,17 @@ export default {
   }
 }
 
+.black {
+  background: rgb(31, 31, 31);
+  color: #fff;
+  border: unset;
+
+  &:hover {
+    background: #C19D60;
+    color: white;
+  }
+}
+
 .arrow-right {
   margin-left: 15px;
 }
