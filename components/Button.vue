@@ -36,7 +36,7 @@ export default {
 }
 
 .transparent {
-  background: rgba(255,255,255,0.1);
+  background: rgba(175, 175, 175, 0.3);
   color: #fff;
   border: 1px solid #C19D60;
 
