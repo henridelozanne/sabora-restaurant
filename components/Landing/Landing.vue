@@ -1,9 +1,11 @@
 <template>
   <div class="landing">
     <img src="../../assets/images/landing.jpg" alt="">
-    <SocialButtons />
     <Hero />
     <ImportantButton />
+    <SocialButtons />
+    <DecTop />
+    <DecBottom />
   </div>
 </template>
 
@@ -11,13 +13,17 @@
 import Hero from './Hero'
 import ImportantButton from './ImportantButton'
 import SocialButtons from './SocialButtons'
+import DecTop from './DecTop'
+import DecBottom from './DecBottom'
 
 export default {
   name: 'Landing',
   components: {
     ImportantButton,
     Hero,
-    SocialButtons
+    SocialButtons,
+    DecTop,
+    DecBottom
   }
 }
 </script>
@@ -39,6 +45,16 @@ export default {
     object-fit:  cover;
     object-position: top;
     filter: brightness(60%);
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .social-buttons {
+    display: none !important;
+  }
+
+  .deco {
+    display: none;
   }
 }
 </style>
