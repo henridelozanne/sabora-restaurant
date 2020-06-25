@@ -17,9 +17,25 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .top-nav {
   display: flex;
   justify-content: flex-end;
+  padding: 15px 0;
+  font-size: 14px;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    span {
+      font-weight: 800;
+      margin-right: 5px;
+    }
+  }
+
+  a:not(:first-of-type) {
+    margin-left: 20px;
+  }
 }
 </style>

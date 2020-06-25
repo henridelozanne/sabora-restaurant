@@ -20,10 +20,10 @@ export default {
 
 <style scoped>
 .nav-container {
-  /* position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100; */
+  z-index: 100;
 }
 </style>
