@@ -1,8 +1,8 @@
 <template>
-  <div class="quote-and-op-ctn">
+  <section class="quote-and-op-ctn">
     <Quote />
     <OpeningHours />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -20,6 +20,7 @@ export default {
 <style scoped lang="scss">
 .quote-and-op-ctn {
   display: flex;
+  height: 650px;
 
   & > * {
     width: 50%;
