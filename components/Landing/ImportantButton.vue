@@ -34,5 +34,11 @@ export default {
     color: white;
     font-style: italic;
   }
+
+  &:hover {
+    span {
+      color: #C19D60;
+    }
+  }
 }
 </style>
