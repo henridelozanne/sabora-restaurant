@@ -29,4 +29,12 @@ body {
   width: 92%;
   margin: 0 auto;
 }
+
+.section-over-header {
+  margin: 0;
+  font-style: italic;
+  color: #C19D60;
+  font-weight: 500;
+  font-family: Prada, serif;
+}
 </style>

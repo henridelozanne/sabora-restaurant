@@ -2,7 +2,7 @@
   <section class="few-words">
     <div class="container">
       <div class="description-ctn">
-        <h4>Our story</h4>
+        <h4 class="section-over-header">Our story</h4>
         <h2>A few words about us</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error similique blanditiis eveniet suscipit, dicta mollitia delectus, quis obcaecati facere sequi vel aliquid perspiciatis debitis libero ipsa quisquam eum at quam?</p>
         <Button :text="'Explore our menu'" :arrow-icon="true"
@@ -37,13 +37,6 @@ export default {
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-
-      h4 {
-        margin: 0;
-        font-style: italic;
-        color: #C19D60;
-        font-weight: 500;
-      }
 
       p {
         width: 80%;
